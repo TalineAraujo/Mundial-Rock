@@ -1,0 +1,45 @@
+/* Estilo geral para o header */
+.header {
+    display: flex;
+    align-items: center; /* Centraliza os itens verticalmente */
+    justify-content: space-between; /* Logo à esquerda, menu centralizado */
+    padding: 10px 20px;
+    background-color: #000; /* Fundo preto */
+    color: #fff;
+    height: 80px; /* Altura fixa */
+    direction: rtl;
+  }
+  
+  /* Logo */
+  .header-logo {
+    height: 100%; /* Faz a logo preencher a altura do header */
+    max-height: 80px; /* Evita que ultrapasse a altura do header */
+  }
+  
+  /* Estilo do menu de navegação */
+  .nav {
+    flex: 1; /* Ocupa o espaço restante */
+    display: flex;
+    justify-content: center; /* Centraliza a lista horizontalmente */
+  }
+  
+  .lista-nav {
+    list-style: none; /* Remove os marcadores da lista */
+    display: flex; /* Alinha os itens lado a lado */
+    gap: 75px; /* Espaço entre os itens */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .lista-nav li a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: #fff; /* Cor branca */
+    font-weight: bold; /* Deixa o texto em negrito */
+    font-size: 16px;
+    transition: color 0.3s; /* Animação suave */
+  }
+  
+  .lista-nav li a:hover {
+    color: #fbad30; /* Cor vermelha no hover */
+  }
+  
